@@ -1,0 +1,41 @@
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# folders
+.env
+node_modules
+dist
+api/*
+config/*
+ci
+
+# editors
+.idea
+*.iml
+*.code-workspace
+.vscode
+
+# filetypes
+*.trc
+*.log
+*.ini
+*.gz
+*.swp
+~*
+
+# local test files
+/*.js
+
+# sap nwrfc sdk
+nwrfcsdk*
+
+!api/_test/
+!api/_test/*
+!api/api.*/
+!api/api.*/*
+!config/all.yaml
+!config/systems.yaml
+!config/catalog.yaml
+!config/_test.yaml
+!config/api.*
